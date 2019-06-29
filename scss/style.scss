@@ -1,0 +1,48 @@
+@import "mixins";
+@import "variables";
+
+@import "common/textstyle.scss";
+@import "common/general";
+
+@import "parts/home";
+@import "parts/about";
+@import "parts/services";
+@import "parts/gallery";
+@import "parts/subscribe";
+@import "parts/blog";
+@import "parts/contact";
+
+@media (max-width: 1170px) { 
+    .grid {
+        width: 100%;
+        justify-content: center !important;
+        flex-wrap: wrap;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .footer__img img{
+        width: auto;
+    }
+    .about__title {
+        text-align: center;
+    }
+
+ }
+
+ @media (max-width: 1170px) {
+    .services__items div {
+        width: 100%;
+    }
+    .blog .btn {
+        padding: 10px;
+    }
+    .subscribe__form .btn {
+        margin-left: 0;
+    }
+    img {
+        margin: 0px !important;
+    }
+  }

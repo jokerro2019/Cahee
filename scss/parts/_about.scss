@@ -1,0 +1,21 @@
+.about  {
+    // background: url(../img/about-bg.jpg) no-repeat left center;
+        background-image: -moz-radial-gradient( 50% 50%, circle closest-side, rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+        background-image: -webkit-radial-gradient( 50% 50%, circle closest-side, rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+        background-image: -ms-radial-gradient( 50% 50%, circle closest-side, rgb(0,196,196) 0%, rgb(0,183,183) 32%, rgb(0,173,173) 68%, rgb(0,156,156) 100%);
+        .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: $color-white;
+    padding-top: 170px;
+    }
+
+    &__title {
+        @include large-title(white)
+        }
+        &__description {
+            text-align: left;
+          }
+}

@@ -1,0 +1,87 @@
+.blog {
+    background-color: $color-violet;
+    color: $color-white;
+    padding-top: 90px;
+    padding-bottom: 123px;
+    text-align: center;
+    
+
+    &__content {
+        
+        margin: 0 auto;
+        margin-bottom: 45px;
+    }
+
+    &__title {
+        @include large-title(white);
+    }
+
+    &__foto {
+        display: flex;
+        margin-bottom: 45px;
+
+        &-description {
+            font-size: 20px;
+            line-height: 25px;
+            font-weight: 600;
+
+        }
+
+        &-copiryght {
+            font-size: 13px;
+            line-height: 25px;
+            
+        }
+
+        &-item1 {
+            background-image: url(../img/blog-img-1-test.jpg);
+            background-repeat: no-repeat;
+            // background-size: cover;
+            height: 309px;
+            width: 33.33%;
+            padding: 30px 20px;
+            // margin: 0 15px;
+            text-align: left;
+        }
+        &-item2 {
+            background-image: url(../img/blog-img-2-test.jpg);
+            background-repeat: no-repeat;
+            // background-size: cover;
+            height: 309px;
+            width: 33.33%;
+            padding: 30px 20px;
+            // margin: 0 15px;
+            text-align: left;
+        }
+        &-item3 {
+            background-image: url(../img/blog-img-3-test.jpg);
+            background-repeat: no-repeat;
+            // background-size: cover;
+            height: 309px;
+            width: 33.33%;
+            padding: 30px 20px;
+            // margin: 0 15px;
+            text-align: left;
+        }
+
+            &-title {
+                    background-color: rgba(38, 38, 38, 0.5);
+                    display: inline-block;
+                    margin-left: 10px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    margin-bottom: 115px;
+
+                    h3 {
+                        margin-bottom: 5px;
+                    }
+                  }
+                  
+        
+    }
+
+    .btn {
+        background-color: $color-red;
+        padding: 18px 60px;
+    }
+}

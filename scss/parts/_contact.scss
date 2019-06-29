@@ -1,0 +1,46 @@
+.contact {
+    background: url(../img/contact-bg.png) center right / cover;
+    padding: 100px 0;
+
+
+    .grid {
+
+        h1 {
+            @include large-title($color-black);
+        }
+
+        .form-grid {
+            display: flex;
+        }
+    }
+
+    &__content {
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn {
+        background-color: blueviolet;
+    }
+
+    &__connect {
+        &-item1 {
+            font-weight: 600;
+            line-height: 25px;
+            color: $color-black;
+        }
+
+        &-item2 {
+            font-size: 20px;
+            line-height: 25px;
+            color: $color-black;
+        }
+    }
+
+    
+}

@@ -1,0 +1,63 @@
+.home {
+    background: url(../img/hero-bg.png) center right / cover;
+    padding-top: 47px;
+    
+    font-family: $font-raleway;
+    height: 100vh;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 253px;
+    }
+
+    .nav {
+        &__menu {
+            display: flex;
+            flex-wrap: wrap;
+            text-transform: uppercase;
+            font-size: 16px;
+            font-weight: bold;
+            li {
+                list-style: none;
+            }
+
+            li:not(:last-child) {
+                margin-right: 33px;
+            }
+
+            li:hover {
+                border-top: 2px solid $color-orange;
+                padding-top: 8px;
+            }
+
+            a {
+                text-decoration: none;
+                color: $color-black;
+            }
+        }
+    }
+
+    &__main {
+        margin-bottom: 20%;
+        &-title {
+            font-size: 60px;
+            font-weight: 900;
+            margin-bottom: 30px;
+        }
+
+        &-description {
+            margin-bottom: 33px;
+        }
+
+        &-btn {
+            background-color: $color-orange;
+        }
+    }
+    .footer__img {
+       text-align: center;
+    }
+
+
+}
